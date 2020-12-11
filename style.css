@@ -1,18 +1,20 @@
 body{
     margin: 0;
     padding: 0;
-    background: url("background.png");
+    background: url("background2.jpg");/* #ccf5ff;/*url("background2.jpg");)*/
     background-size: cover;
 }
 .box{
     width: 450px;
-    background: rgba(87, 89, 88, 0.4);
+    background: #00ccff;/*#84B4EB;/*rgba(87, 89, 88, 0.4);*/
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: white;
+    color: black;
+    border-color: black;
     font-family: 'Century Gothic', sans-serif;
+
 }
 .box-img{
     border-radius: 50%;
@@ -38,7 +40,7 @@ ul{
 }
 .box li{
     display: inline-block;
-    margin: 6px;
+    margin: 30px;
     list-style: none;
 }
 .box li a{
@@ -49,5 +51,22 @@ ul{
 }
 .box li a:hover{
     color: #b9b9b9;
+}
+
+.box2{
+    /*width: 450px;*/
+    background: #00ccff;/*#84B4EB;/*rgba(87, 89, 88, 0.4);*/
+    padding: 40px;
+    text-align: left;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    border-color: black;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box2 h2{
+    font-size: 20px;
+    letter-spacing:1px;
+    font-weight:bold;
 }
 
